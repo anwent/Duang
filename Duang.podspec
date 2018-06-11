@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Duang"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Customizable PageMenu In Swift"
 
   s.description  = <<-DESC
