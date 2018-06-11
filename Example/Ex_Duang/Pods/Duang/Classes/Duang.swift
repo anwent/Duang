@@ -30,7 +30,7 @@ public class Duang: UIControl, DuangPresentation {
     
     /// Just controlBar
     private var controlBar: DuangBody.ControlBar?
-
+    
     /// Segment line background color, default is nil
     public var segmentBackgroundColor: UIColor? {
         get { return controlBar?.segmentBackgroundColor }
@@ -56,7 +56,7 @@ public class Duang: UIControl, DuangPresentation {
     }
     
     private weak var dDelegate: DuangDelegate?
-
+    
     /// Initialization
     ///
     /// - Parameters:
@@ -68,14 +68,13 @@ public class Duang: UIControl, DuangPresentation {
     ///   - loadAllCtl: Whether to initialize all controllers directly, default is false
     ///   - style: Control bar style, detailed see github
     public init(frame: CGRect,
-         subControllers: [UIViewController.Type],
-         dataSource: DuangDataSource? = nil,
-         delegate: DuangDelegate? = nil,
-         controlBarHeight: CGFloat = 44,
-         loadAllCtl: Bool = false,
-         style: MenuConstants.ControlBarStyle = .full) {
+                subControllers: [UIViewController.Type],
+                dataSource: DuangDataSource? = nil,
+                delegate: DuangDelegate? = nil,
+                controlBarHeight: CGFloat = 44,
+                loadAllCtl: Bool = false,
+                style: MenuConstants.ControlBarStyle = .full) {
         dDelegate = delegate
-        
         super.init(frame: frame)
         
         controlBar = DuangBody.ControlBar(frame: CGRect(x: 0, y: 0, width: bounds.width, height: controlBarHeight), controllers: subControllers, style: style)
@@ -83,7 +82,7 @@ public class Duang: UIControl, DuangPresentation {
         controlBar?.barDataSource = dataSource
         
         menu = DuangBody.Menu(frame: CGRect(x: 0, y: controlBarHeight, width: bounds.width, height: bounds.height - controlBarHeight), subControllers: subControllers, delegate: self, loadAllCtl: loadAllCtl)
-
+        
         addSubview(controlBar!)
         addSubview(menu!)
         

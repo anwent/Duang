@@ -17,6 +17,7 @@
 		2D421DE620CE1FA5005145A9 /* AVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D421DE520CE1FA5005145A9 /* AVC.swift */; };
 		2D421DE820CE1FB3005145A9 /* BVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D421DE720CE1FB3005145A9 /* BVC.swift */; };
 		2D421DEA20CE1FC1005145A9 /* CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D421DE920CE1FC1005145A9 /* CVC.swift */; };
+		2D4A0EFD20CE46310036DB07 /* nice.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A0EFC20CE46310036DB07 /* nice.png */; };
 		96E6A9C70C037C838E611D0A /* Pods_Ex_Duang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729EA9EF41D8A69A132BD621 /* Pods_Ex_Duang.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		2D421DE520CE1FA5005145A9 /* AVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVC.swift; sourceTree = "<group>"; };
 		2D421DE720CE1FB3005145A9 /* BVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BVC.swift; sourceTree = "<group>"; };
 		2D421DE920CE1FC1005145A9 /* CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVC.swift; sourceTree = "<group>"; };
+		2D4A0EFC20CE46310036DB07 /* nice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nice.png; sourceTree = "<group>"; };
 		729EA9EF41D8A69A132BD621 /* Pods_Ex_Duang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ex_Duang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A509E2A4F905E9A6379678C1 /* Pods-Ex_Duang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ex_Duang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ex_Duang/Pods-Ex_Duang.debug.xcconfig"; sourceTree = "<group>"; };
 		EE8F56F1D7AB50C4866E1CE6 /* Pods-Ex_Duang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ex_Duang.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ex_Duang/Pods-Ex_Duang.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				2D421DB820CE1D60005145A9 /* ViewController.swift */,
 				2D421DBA20CE1D60005145A9 /* Main.storyboard */,
 				2D421DBD20CE1D7B005145A9 /* Assets.xcassets */,
+				2D4A0EFC20CE46310036DB07 /* nice.png */,
 				2D421DBF20CE1D7B005145A9 /* LaunchScreen.storyboard */,
 				2D421DC220CE1D7B005145A9 /* Info.plist */,
 			);
@@ -275,6 +278,7 @@
 			files = (
 				2D421DC120CE1D7B005145A9 /* LaunchScreen.storyboard in Resources */,
 				2D421DBE20CE1D7B005145A9 /* Assets.xcassets in Resources */,
+				2D4A0EFD20CE46310036DB07 /* nice.png in Resources */,
 				2D421DBC20CE1D60005145A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
