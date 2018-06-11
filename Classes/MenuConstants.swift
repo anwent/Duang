@@ -18,15 +18,3 @@ extension Array {
         return CGFloat(count)
     }
 }
-
-extension UIView {
-    
-    var x: CGFloat {
-        get {
-            return self.frame.origin.x
-        }
-        set {
-            self.frame.origin.x = newValue
-        }
-    }
-}
