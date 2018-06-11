@@ -10,15 +10,15 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/anwent/Duang"
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = 'MIT'
 
   s.author       = { "anwent" => "zhihaozhanggm@gmail.com" }
 
-  s.source       = { :git => "https://github.com/anwent/Duang.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/anwent/Duang.git", :tag => s.version }
 
-  s.source_files  = "Classes/*.{swift}" 
+  s.source_files  = 'Classes/*.swift'
   s.requires_arc  = true
-  s.platform      = :ios, '8.0'
+  s.ios.deployment_target = '8.0'
   s.framework     = 'UIKit' 
   s.swift_version = '4.0'
 
