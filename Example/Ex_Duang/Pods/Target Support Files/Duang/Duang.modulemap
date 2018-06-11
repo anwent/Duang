@@ -1,0 +1,6 @@
+framework module Duang {
+  umbrella header "Duang-umbrella.h"
+
+  export *
+  module * { export * }
+}

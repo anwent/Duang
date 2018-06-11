@@ -1,0 +1,9 @@
+
+use_frameworks!
+
+
+target 'Ex_Duang' do
+
+  pod 'Duang'
+
+end
